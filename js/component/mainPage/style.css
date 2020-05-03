@@ -1,0 +1,45 @@
+body {
+    background: #f6f6f6;
+}
+
+.wrapper {
+    margin: 0 auto;
+    width: 750px;
+}
+
+.wrapper__div {
+    margin-top: 10px;
+	display: flex;
+    background: gold;
+    border-radius: 1em;
+    text-align: center;
+}
+
+.wrapper__div_number {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    color: beige;
+    text-align:center;
+    margin: 1em;
+    background:#172d44;
+    border-radius: 1em;
+}
+
+.wrapper__guide {
+    border: 1px solid rebeccapurple;
+    background: white;
+    padding: 0.5em;
+    margin-top: 2em;
+}
+
+.wrapper__guide_title {
+    text-align: center;
+    font-weight: bold;
+}
+
+.wrapper__guide_article {
+    line-height: 1.5em;
+}
